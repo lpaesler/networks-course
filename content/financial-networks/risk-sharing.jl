@@ -106,7 +106,7 @@ based on _[Acemoglu, Ozdaglar & Tahbaz-Salehi, 2015](https://www.aeaweb.org/arti
 md"""
 # Part A: *Risk sharing in financial networks*
 
-We study the model of **Allen & Gale (2000)**, which builds on the **Diamond & Dybvig (1983)** of bank runs.
+We study the model of **Allen & Gale (2000)**, which builds on the **Diamond & Dybvig (1983)** model of bank runs.
 """
 
 # ╔═╡ 547715c2-98e2-4188-a840-36f3dfda45e8
@@ -177,7 +177,7 @@ sliders
 md"""
 If the _return from liquidation_ $r$ is sufficiently low, agents will **not invest** in the liquid asset ($x=0$).
 
-The fact that nobody is investing in the asset is not very satisfying. Isn't it somehow possible to predict __how many agents will be hungry in period 2__? Then we could invest at least plant __some__ potatoes and distribute the returns somehow.
+The fact that nobody is investing in the asset is not very satisfying. Isn't it somehow possible to predict __how many agents will be hungry in period 2__? Then we could invest, i.e. plant at least __some__ potatoes, and distribute the returns somehow.
 """
 
 # ╔═╡ 41b70c0c-7c48-40f9-bed6-b712bab83f1b
@@ -352,7 +352,7 @@ md"""
 
 Now, let's suppose that there are ``N`` banks. All banks face the same decision problem, so they will offer the same deposit contract ``(c_1, c_2)``. Agents will randomly pick one of the two banks the outcome will be the same as before.
 
-Let ``\omega_i`` be the fraction of bank ``i``'s customers that withdraws early. The average fraction of withdrawers is ``\gamma = \frac{1}{N}\sum_{i=1}^N \omega_i``. We assume that there is **idiosychratic** (i.e. bank-specific) **risk**, but **no aggregate risk**.  That is, banks don't know ``\omega_i``, but they know ``\gamma``.
+Let ``\omega_i`` be the fraction of bank ``i``'s customers that withdraws early. The average fraction of withdrawers is ``\gamma = \frac{1}{N}\sum_{i=1}^N \omega_i``. We assume that there is **idiosyncratic** (i.e. bank-specific) **risk**, but **no aggregate risk**.  That is, banks don't know ``\omega_i``, but they know ``\gamma``.
 
 > Can the social optimum still be achieved?
 
